@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background:  linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(wl15.jpeg);
+    background-position:  center;
+    background-size: cover;
+    height:109vh;
+
+}
+.navbar{
+    width: auto;
+    height: auto;
+    margin: center;
+}
+.icon{
+    width: auto;
+    height: auto;
+    float:right;
+}
+.logo{
+    color: rgba(211, 50, 22, 0.938);
+    font-size: 30px;
+    font-family: arial;
+    padding-right: 40px;
+    float:right;
+    padding-top: 10px;
+}
+.menu{
+    width: auto;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left:62px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: brown;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 100px;
+    color:white;
+    position: absolute;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 35px;
+}
